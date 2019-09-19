@@ -3,9 +3,8 @@ import { NavLink } from 'react-router-dom'
 import bg from '../images/bg.jpg';
 
 export const Logo = styled.img`
-display: inline-block;
-max-width: 200px;
-margin-right: 8px;
+  display: inline-block;
+  max-width: 200px;
 `;
 
 export const Background = styled.div`
@@ -74,10 +73,11 @@ export const Button = styled(NavLink)`
     display: inline-block;
     line-height: 1;
     vertical-align: middle;
-    padding: 6px 18px 8px;
+    padding: 7px 12px 8px;
     border-radius: 50px;
     transform: translateX(0);
     transition: all 0.3s ease-in-out;
+    text-align: center;
 
     &:hover {
         background-color: #444;

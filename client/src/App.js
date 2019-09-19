@@ -8,7 +8,7 @@ import { Background } from './components/StyledComponents'
 import './App.scss';
  
 
-const uri = {uri: 'http://localhost:5000/graphql'};
+const uri = {uri: '/graphql'}; 
 const client = new ApolloClient(uri);
 
 const App = () => {
