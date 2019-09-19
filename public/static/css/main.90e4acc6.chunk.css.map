@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.scss"],"names":[],"mappings":"AAAA,KACI,gBAAiB,CACjB,iBAAkB,CAGtB,0FAOQ,UAAW","file":"main.90e4acc6.chunk.css","sourcesContent":["body {\r\n    min-width: 1400px;\r\n    overflow-y: hidden;\r\n}\r\n\r\n.LaunchInfo {\r\n    h1,\r\n    h2,\r\n    h3,\r\n    h4,\r\n    h5,\r\n    h6 {\r\n        color: #fff;\r\n    }\r\n}"]}
