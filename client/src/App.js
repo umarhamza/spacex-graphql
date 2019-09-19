@@ -16,7 +16,7 @@ const App = () => {
     <ApolloProvider client={client}>
       <Router>
         <Background>
-          <Route exact path={`/`} component={LaunchDetails} />
+          <Route exact path="/" component={LaunchDetails} />
           <Route exact path="/launches/:id" component={LaunchDetails} />
         </Background>
       </Router>
